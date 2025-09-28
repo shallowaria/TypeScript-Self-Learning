@@ -1,9 +1,14 @@
-var User = {
+"use strict";
+// const User = {
+//   name: "Aria",
+//   email: "Aria@gmail.com",
+//   isActive: true,
+// };
+Object.defineProperty(exports, "__esModule", { value: true });
+var myUser = {
+    _id: "1245",
     name: "Aria",
     email: "Aria@gmail.com",
-    isActive: true,
+    isActive: false,
 };
-function createUser(_a) {
-    var string = _a.name, boolean = _a.isPaid;
-}
-createUser("");
+myUser.email = "h@h.com";
