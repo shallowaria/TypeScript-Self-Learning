@@ -35,6 +35,12 @@ class User {
         this._courseCount = courseNum;
     }
 }
+class SubUser extends User {
+    isFamily = true;
+    changeCourseCount() {
+        this._courseCount = 4;
+    }
+}
 const aria = new User("h@h.com", "aria", "SI");
 export {};
 // aria.city = "SICHUAN"
